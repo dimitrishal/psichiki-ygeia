@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Προσωπική Ιστοσελίδα</title>
+    <style>
+        body { font-family: Arial, sans-serif; color: #333; background-color: #f4f4f4; margin: 0; padding: 0; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #50a3a2; color: white; padding-top: 30px; min-height: 70px; border-bottom: 1px solid #eaeaea; }
+        header h1 { padding: 5px 0; }
+        nav { background: #333; color: #fff; padding: 5px; text-align: center; }
+        nav a { color: white; text-decoration: none; padding: 5px 20px; }
+        .content { padding: 20px; }
+        .footer { background: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Προσωπική Ιστοσελίδα - Σύμβουλος Ψυχικής Υγείας</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#home">Αρχική</a>
+            <a href="#about">Επαγγελματική Σελίδα</a>
+            <a href="#blog">Blog Ψυχολογίας</a>
+        </div>
+    </nav>
+
+    <div class="content container">
+        <section id="home">
+            <h2>Καλωσορίσατε</h2>
+            <p>Καλωσορίσατε στην προσωπική μου ιστοσελίδα. Εδώ θα βρείτε πληροφορίες για τις υπηρεσίες μου στον τομέα της ψυχολογίας, καθώς και άρθρα και σκέψεις σχετικά με την ψυχολογία.</p>
+        </section>
+
+        <section id="about">
+            <h2>Επαγγελματική Σελίδα</h2>
+            <p>Εισαγωγή στο επαγγελματικό προφίλ και τις υπηρεσίες μου ως σύμβουλος ψυχικής υγείας.</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog Ψυχολογίας</h2>
+            <p>Εδώ θα βρείτε άρθρα, σκέψεις και έρευνες που έχω κάνει σχετικά με διάφορα θέματα της ψυχολογίας.</p>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>Δικαιώματα © 2024 Σύμβουλος Ψυχικής Υγείας. Όλα τα δικαιώματα επιφυλασσόμενα.</p>
+    </div>
+</body>
+</html>
